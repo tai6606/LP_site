@@ -1,0 +1,163 @@
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+footer{
+  background-color: #efefef;
+  text-align: center;
+}
+footer p{
+  font-size: 12px;
+  padding: 40px 0px;
+}
+
+
+
+
+
+
+.download{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.download p{
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: red;
+  color: white;
+}
+
+
+
+.header-right span{
+  display: none;
+}
+
+
+
+
+
+@media all and (min-width: 500px){
+  .step-main-text br{
+    display: none;
+  }
+  .step-main-text p{
+    margin-bottom: 30px;
+  }
+}
+
+
+
+@media all and (min-width: 800px){
+  .main-header-bgi h1{
+    font-size: 30px !important;
+    padding-bottom: 327px;
+  }
+
+  .main-header-text{
+    position: absolute;
+    top: 246px;
+    width: 600px;
+    left: calc(50% - 300px);
+    box-sizing: border-box;
+  }
+  .margin-bgc{
+    padding: 0px;
+  }
+
+  .h2-bottom h2::before{
+    left: calc(50% - 230px);
+  }
+  .h2-bottom h2::after{
+    right: calc(50% - 230px);
+  }
+
+  header{
+    position: absolute;
+  }
+  .header-right a{
+    width: 200px;
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+
+  .header-right span{
+    display: inline-block;
+  }
+}
+
+
+
+
+
+@media all and (min-width: 1000px){
+  .item-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
+
+  .step-box{
+    width: 32%;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+
+  .step-box h3{
+    top: -17.5px;
+  }
+  .step-box h3::before{
+    display: none;
+  }
+
+  .step-main-box{
+    padding-top: 40px;
+  }
+
+
+  .step-box-2{
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+  }
+
+  .support-img{
+    display: none;
+  }
+
+  .support-text{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    background-image: url(../img/dubai-1767540_1280.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+  }
+
+}
+
+
+
+@media all and (min-width: 1000px) and (max-width: 1400px){
+  .step-main-text p{
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+@media all and (min-width: 1300px){
+  .h2-bottom h2{
+    padding: 50px;
+  }
+}

@@ -1,0 +1,38 @@
+header{
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #cfcdcd;
+  z-index: 1000;
+}
+
+.header-left{
+  width: 50%;
+  text-align: center;
+  padding: 20px 0px;
+}
+.header-left h1{
+  line-height: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+.header-right{
+  padding: 20px 0px;
+  text-align: center;
+  width: 50%;
+}
+
+.header-right a{
+  line-height: 25px;
+  padding: 8px 20px;
+  border-radius: 16px;
+  background-color: red;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
